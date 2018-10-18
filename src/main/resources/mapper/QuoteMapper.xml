@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.QuoteMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Quote">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="quotestart" jdbcType="VARCHAR" property="quotestart" />
+    <result column="quoteend" jdbcType="VARCHAR" property="quoteend" />
+    <result column="filmid" jdbcType="INTEGER" property="filmid" />
+    <result column="quote" jdbcType="VARCHAR" property="quote" />
+  </resultMap>
+</mapper>
